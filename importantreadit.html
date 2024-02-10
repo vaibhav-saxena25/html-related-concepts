@@ -1,0 +1,75 @@
+<form action="server">
+    <label>
+        enter username
+        <input type="text" placeholder="enter name"/><br>
+       
+    </label>
+    <br>
+    <label>
+        enter password
+        <input type="password" placeholder="enter password" name="pass"/>
+    </label>
+    <br>
+    <p><b>another way to link enter username and input</b></p>
+    <!--another way to link username and input that is most used -->
+    <label for="ill">enter username</label>
+    <input type="text" placeholder="enter username" id="ill" name="hello"/>
+    <!--default button in form is always submit the form information according to action-->
+    <p><h1>button types</h1></p>
+    <p>submit form info</p>
+    <button type="submit">submit</button> <br>
+    <p>reset form info</p>
+    <button type="reset">reset</button> <br>
+    <p>just a button</p>
+    <button type="button">button</button> <br>
+    <p>button using input just a simple button</p>
+    <input type="button" value="click me"/><br>
+    <p>button joh submit krega saari information using input</p>
+    <input type="submit" value="i will submit everything"/>
+    
+    
+
+
+</form>
+<hr>
+<div>
+<form action="https://www.youtube.com/results?">
+    <p>search on youtube</p><br>
+    <label for="hello">search on youtube</label>
+    <input type="text" placeholder="youtube" id="hello" name="search_query"/>
+    </div>
+    
+
+</form>
+<hr>
+<form>
+    <label for="new">i am 18+</label>
+    <input type="checkbox" id="new" />
+</form>
+<hr>
+<form>
+    <p>creation radion button make same name so that they will be group when give and only one will be selected </p>
+    <p>add value attribute on input so that when submit on server it will be submt by that name </p>
+    <input type="radio"  name="fruit"id="apple" value="apple"/>
+    <label for="apple">apple</label>
+    <input type="radio"  name="fruit"id="banana" value="banana"/>
+    <label for="banana">banana</label>
+    <input type="radio"  name="fruit"id="mango" value="mango"/>
+    <label for="mango">mango</label>
+</form>
+<div>
+    <form>
+        <p><b>Creating dropdown</b></p>
+        <select name="profession" id="profession">
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+        </select>
+
+    </form>
+</div>
+<form>
+    <label for="volume">select your volume level</label>
+    <input type="range" min="1" max="100"name="vol"/>
+</form>
+<label for="feedback">please give your valuable feedback</label>
+<textarea id="feedback" rows="5" cols="100"></textarea>
